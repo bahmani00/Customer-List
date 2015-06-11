@@ -20,8 +20,7 @@ public class AddCustomerActivity extends Activity {
 		Intent intent;
 		switch(view.getId()){
 		case R.id.btImagePicker :
-			intent = new Intent(Intent.ACTION_PICK);
-			intent.setType("image/*");
+			intent = new Intent(Intent.ACTION_PICKو "image/*");
 			startActivityForResult(intent, SELECT_PHOTO );
 			return;
 		case R.id.btDatePicker :
